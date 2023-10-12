@@ -48,6 +48,8 @@ const oAuthURL =
 - Requires tabbing out into a browser
 - Requires hosting a server with exposed endpoints to ingest the bearer token
 - Used inside of a WebView / CEF instance, it requires them to login again
+- Requires additional firewall setup
+- Requires some form of static endpoint
 
 Difficulty: 5/10
 
@@ -70,6 +72,7 @@ _The discord bot must be bound to the game server_
 
 - 100% proof the client is who they say they are
 - No exposed endpoints
+- Zero configuration for ports, and firewalls
 
 ### Cons
 
