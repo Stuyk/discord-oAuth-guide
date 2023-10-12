@@ -10,6 +10,14 @@ However, there are `other` ways to effectively authenticate a user in a non-trad
 
 Let's talk about some of those and their inherit advantages and disadvantages.
 
+## Scoring
+
+- Safety means there's no inherit flaws about using this format
+- Reliability means how reliable it will be for users using this format
+- Difficult means how hard it is to implement
+
+10 is best.
+
 ## Regular oAuth2
 
 1. User visits a URL like this:
@@ -44,6 +52,8 @@ Reliability: 10/10
 Safety: 100%
 
 ## Discord Bot Message
+
+_The discord bot must be bound to the game server_
 
 1. User joins a server, or starts a game.
 2. The client is given a unique identifier / password
@@ -101,8 +111,8 @@ Safety: 100%
 This method requires the Discord Application and `rpc` but is currently closed beta, and unavailable
 
 1. Client-side makes an rpc request to discord application
-2. Returns user information / client_id
-3. client_id passed up to server
+2. Returns access token
+3. Access token exchanged on server-side
 4. That's it
 
 ### Pros
@@ -116,8 +126,8 @@ This method requires the Discord Application and `rpc` but is currently closed b
 - Client must have application open before opening game, software, etc.
 - Client identifier can be spoofed, and is a major vulnerability
 
-Difficult: 1/10
+Difficult: 3/10
 
-Reliability: 1/10
+Reliability: 3/10
 
-Safety: 0%
+Safety: 100%
