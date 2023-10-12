@@ -13,11 +13,15 @@ Let's talk about some of those and their inherit advantages and disadvantages.
 ## Scoring
 
 - Safety means there's no inherit flaws about using this format
+    - Higher is better
+
 - Reliability means how reliable it will be for users using this format
+    - Higher is better
+
 - Difficult means how hard it is to implement
+    - Lower is better
 
-10 is best.
-
+  
 ## Regular oAuth2
 
 1. User visits a URL like this:
