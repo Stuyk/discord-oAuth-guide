@@ -38,7 +38,9 @@ const oAuthURL =
 - Used inside of a WebView / CEF instance, it requires them to login again
 
 Difficulty: 5/10
+
 Reliability: 10/10
+
 Safety: 100%
 
 ## Discord Bot Message
@@ -61,7 +63,9 @@ Safety: 100%
 - Can be a bit confusing for the user the first time they do it
 
 Difficulty: 3/10
+
 Reliability: 10/10
+
 Safety: 100%
 
 ## Integrated Client
@@ -85,7 +89,9 @@ Safety: 100%
 - Does not work in browser
 
 Difficult: 4/10
+
 Reliability: 3/10
+
 Safety: 100%
 
 ## Discord RPC (unavailable)
@@ -109,5 +115,7 @@ This method requires the Discord Application and `rpc` but is currently closed b
 - Client identifier can be spoofed, and is a major vulnerability
 
 Difficult: 1/10
+
 Reliability: 1/10
+
 Safety: 0%
