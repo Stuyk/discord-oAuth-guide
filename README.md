@@ -61,6 +61,8 @@ Safety: 100%
 
 - Requires tabbing out into a browser, or opening the Discord Overlay
 - Can be a bit confusing for the user the first time they do it
+- User must have their DMs open
+- User must be in the same server as the Discord Bot
 
 Difficulty: 3/10
 
